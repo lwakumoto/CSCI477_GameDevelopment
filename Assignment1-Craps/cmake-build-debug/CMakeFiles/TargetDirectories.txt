@@ -1,0 +1,3 @@
+C:/Users/Luke Wakumoto/Documents/CSCI447_GameDevelopment/Assignment1-Craps/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Luke Wakumoto/Documents/CSCI447_GameDevelopment/Assignment1-Craps/cmake-build-debug/CMakeFiles/CSCI447_GameDevelopment.dir
+C:/Users/Luke Wakumoto/Documents/CSCI447_GameDevelopment/Assignment1-Craps/cmake-build-debug/CMakeFiles/rebuild_cache.dir

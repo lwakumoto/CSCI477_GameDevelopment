@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\CSCI447_GameDevelopment.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\CSCI447_GameDevelopment.dir/objects.a @CMakeFiles\CSCI447_GameDevelopment.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\CSCI447_GameDevelopment.dir/objects.a -Wl,--no-whole-archive -o CSCI447_GameDevelopment.exe -Wl,--out-implib,libCSCI447_GameDevelopment.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CSCI447_GameDevelopment.dir\linklibs.rsp

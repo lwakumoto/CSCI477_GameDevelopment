@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Luke Wakumoto/Documents/CSCI447_GameDevelopment/Dice.cpp
+string
+-
+iostream
+-
+ctime
+-
+Dice.h
+C:/Users/Luke Wakumoto/Documents/CSCI447_GameDevelopment/Dice.h
+
+C:/Users/Luke Wakumoto/Documents/CSCI447_GameDevelopment/Dice.h
+
+C:/Users/Luke Wakumoto/Documents/CSCI447_GameDevelopment/main.cpp
+iostream
+-
+Dice.h
+C:/Users/Luke Wakumoto/Documents/CSCI447_GameDevelopment/Dice.h
+
