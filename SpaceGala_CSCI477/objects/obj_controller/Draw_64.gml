@@ -17,12 +17,16 @@ if (global.gameState != state.PLAYING){
 	if (global.gameState = state.WIN){
 		draw_set_font(fnt_messages)
 		draw_text(room_width/2, room_height/2, "YOU WIN");	
+		draw_text(room_width/2, room_height/2 + string_height("YOU WIN"), "PRESS R TO PLAY AGAIN");
+		draw_text(room_width/2, room_height/2 + string_height("YOU WIN") * 2, "PRESS X TO EXIT");
 	}
 	else if (global.gameState = state.LOSE){
 		draw_set_font(fnt_messages)
 		draw_text(room_width/2, room_height/2, "YOU LOSE");	
+		draw_text(room_width/2, room_height/2 + string_height("YOU WIN"), "PRESS R TO PLAY AGAIN");
+		draw_text(room_width/2, room_height/2 + string_height("YOU WIN") * 2, "PRESS X TO EXIT");
 	}
 	
-	draw_text(room_width/2, room_height/2 + string_height("YOU WIN"), "PRESS R TO PLAY AGAIN");
-	draw_text(room_width/2, room_height/2 + string_height("YOU WIN") * 2, "PRESS X TO EXIT");
+	
+	
 }

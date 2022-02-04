@@ -11,3 +11,5 @@ enum state{
 }
 
 global.gameState = state.PLAYING
+
+menu = noone

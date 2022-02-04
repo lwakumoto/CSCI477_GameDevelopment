@@ -30,11 +30,14 @@ if (restart_button && global.gameState != state.PLAYING){
 if (pause_button){
 	if (global.gameState == state.PLAYING){
 		global.gameState = state.PAUSED	
+		menu = instance_create_layer(0,0,"Instances",obj_menu) // create menu
 	}
 	else{
 		global.gameState = state.PLAYING
+		instance_destroy(menu.id)
 		with (obj_enemy_red){
 			alarm[1] = rand_fire_delay // reset the enemie's fire alarm when unpaused
+			alarm[0] = room_speed*5 // reset move timer as well
 		}
 	}
 }
