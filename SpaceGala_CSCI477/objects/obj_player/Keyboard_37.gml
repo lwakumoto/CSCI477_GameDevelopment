@@ -6,6 +6,8 @@
 // the left wall
 // Since pivot position is in the middle,
 // take that into account in the map
-if ((x - sprite_width/2) > 0){
-	x-=spd;	
+if (global.gameState == state.PLAYING){
+	if ((x - sprite_width/2) > 0){
+		x-=spd;	
+	}
 }

@@ -3,4 +3,6 @@
 y += 30;
 
 // Reset alarm
-alarm[0] = move_down_speed
+if (global.gameState = state.PLAYING){
+	alarm[0] = move_down_speed
+}
