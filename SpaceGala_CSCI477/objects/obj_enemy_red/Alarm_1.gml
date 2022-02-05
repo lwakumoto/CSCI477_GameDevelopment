@@ -5,7 +5,6 @@ if (global.gameState == state.PLAYING){
 	bullet.atk = atk
 
 	bullet.direction = 270
-	bullet.speed = bullet.spd
 	bullet.image_angle = bullet.direction	
 
 	rand_fire_delay = room_speed * random_range(0.5, 5)
