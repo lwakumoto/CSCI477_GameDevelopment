@@ -1,13 +1,18 @@
 /// @description Movement and collisoin
 
-var keyleft = keyboard_check(vk_left)
-var keyright = keyboard_check(vk_right)
-var keyup = keyboard_check(vk_up)
-var keydown = keyboard_check(vk_down)
+
+var keyleft = keyboard_check(vk_left) || keyboard_check(ord("A"))
+var keyright = keyboard_check(vk_right) || keyboard_check(ord("D"))
+var keyup = keyboard_check(vk_up) || keyboard_check(ord("W"))
+var keydown = keyboard_check(vk_down) || keyboard_check(ord("S"))
 
 var move = keyright - keyleft
 var jumping = keyboard_check_pressed(vk_space)
 var vmove = keydown - keyup
+
+if (global.currentGameState != gameState.PLAYING){
+	move = 0;
+}
 
 hsp = move * spd;
 vsp += grv
@@ -28,6 +33,7 @@ if (grounded && jumping){
 	vsp -= jspd;	
 	grounded = false;
 	sprite_index = spr_player_idle
+	audio_play_sound(snd_jump,1,false);
 }
 
 // Climbing 
@@ -76,3 +82,56 @@ else {
 
 y += vsp;
 
+if (y - sprite_height/2 > room_height){
+	scr_killPlayer(id);	
+}
+
+
+// ball collision
+if (place_meeting(x,y,obj_ball)){
+	scr_killPlayer(id);
+}
+
+if (global.playerLives <= 0){
+		global.currentGameState = gameState.LOSE;
+}
+
+// cherry collision
+if (place_meeting(x,y,obj_cherry)){
+	with (instance_nearest(x,y,obj_cherry)){
+		global.playerScore += ptsGained;
+		audio_play_sound(snd_cherry,1,false);
+		global.playerCherries ++;
+		instance_destroy(id);
+	}
+	if (instance_exists(obj_goal)){ // if there are no more cherries, make the goal visible
+		if (instance_number(obj_cherry) == 0){
+			obj_goal.visible = true;
+		}
+	}
+
+	
+}
+
+// goal collision
+var goal = instance_place(x,y,obj_goal);
+if (goal != noone){
+	if (goal.visible == true){
+		if (global.currentGameState = gameState.PLAYING){
+			audio_play_sound(snd_goal,1,false); // so it doesn't loop infinitely
+		}
+		// the game will only enter the win state if the current level is the last level of the game
+		if (global.currentRoomIndex != array_length(global.roomSequence) - 1){
+			scr_advanceLevel();	
+		}
+		else{
+			global.currentGameState = gameState.WIN;
+		}
+	}
+}
+
+var room_advance = keyboard_check_pressed(vk_shift);
+
+if (room_advance){
+	scr_advanceLevel();	
+}

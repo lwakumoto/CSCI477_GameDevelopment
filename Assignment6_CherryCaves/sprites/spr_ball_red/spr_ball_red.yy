@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 1,
-  "bbox_right": 61,
-  "bbox_top": 4,
-  "bbox_bottom": 61,
+  "bbox_left": 0,
+  "bbox_right": 63,
+  "bbox_top": 0,
+  "bbox_bottom": 63,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"32ab5954-e2eb-434f-b0b9-40b4af6afa5b","path":"sprites/spr_cherry/spr_cherry.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"32ab5954-e2eb-434f-b0b9-40b4af6afa5b","path":"sprites/spr_cherry/spr_cherry.yy",},"LayerId":{"name":"2cd0e511-b033-4052-ab3b-03ccd886d36c","path":"sprites/spr_cherry/spr_cherry.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_cherry","path":"sprites/spr_cherry/spr_cherry.yy",},"resourceVersion":"1.0","name":"32ab5954-e2eb-434f-b0b9-40b4af6afa5b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"5e38918b-1f4d-4a7f-8afb-4e6811b640f9","path":"sprites/spr_ball_red/spr_ball_red.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"5e38918b-1f4d-4a7f-8afb-4e6811b640f9","path":"sprites/spr_ball_red/spr_ball_red.yy",},"LayerId":{"name":"f73a3470-5e27-4723-9d3c-2c7f4d51e895","path":"sprites/spr_ball_red/spr_ball_red.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_ball_red","path":"sprites/spr_ball_red/spr_ball_red.yy",},"resourceVersion":"1.0","name":"5e38918b-1f4d-4a7f-8afb-4e6811b640f9","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_cherry","path":"sprites/spr_cherry/spr_cherry.yy",},
+    "spriteId": {"name":"spr_ball_red","path":"sprites/spr_ball_red/spr_ball_red.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"683e5cd2-a805-4f7e-840c-b33d4570b0a7","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"32ab5954-e2eb-434f-b0b9-40b4af6afa5b","path":"sprites/spr_cherry/spr_cherry.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"cac5de05-cdab-4461-8d59-89fc1bd5ca2d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5e38918b-1f4d-4a7f-8afb-4e6811b640f9","path":"sprites/spr_ball_red/spr_ball_red.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_cherry","path":"sprites/spr_cherry/spr_cherry.yy",},
+    "parent": {"name":"spr_ball_red","path":"sprites/spr_ball_red/spr_ball_red.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_cherry",
+    "name": "spr_ball_red",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2cd0e511-b033-4052-ab3b-03ccd886d36c","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f73a3470-5e27-4723-9d3c-2c7f4d51e895","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_cherry",
+  "name": "spr_ball_red",
   "tags": [],
   "resourceType": "GMSprite",
 }
