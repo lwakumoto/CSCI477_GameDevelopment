@@ -7,6 +7,8 @@ global.playerLives = 3;
 global.playerScore = 0;
 global.playerCherries = 0;
 
+global.playerMoney = score;
+
 enum gameState {
 	LOSE,
 	WIN,
