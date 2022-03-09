@@ -28,7 +28,11 @@
   "option_windows_enable_steam": false,
   "option_windows_disable_sandbox": false,
   "option_windows_steam_use_alternative_launcher": false,
+<<<<<<< HEAD
+  "option_windows_use_x64": false,
+=======
   "option_windows_use_x64": true,
+>>>>>>> 559c2e6edcf2778a56c74007923fb975b75a8227
   "resourceVersion": "1.1",
   "name": "Windows",
   "tags": [],
