@@ -17,5 +17,7 @@
 // how close astronaut can be to sun before explosion
 #macro SUNDESTROY 10
 
-// TODA: Play backgounrd music for the whole game
+// TODO: Play backgounrd music for the whole game
 
+// Save the one instance of the sun in a global variable
+global.instSun = instance_find(obj_sun,1)

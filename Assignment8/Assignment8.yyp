@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"order":0,},
+    {"id":{"name":"scr_updateObject","path":"scripts/scr_updateObject/scr_updateObject.yy",},"order":0,},
     {"id":{"name":"moon","path":"sprites/moon/moon.yy",},"order":0,},
     {"id":{"name":"snd_background","path":"sounds/snd_background/snd_background.yy",},"order":1,},
     {"id":{"name":"obj_astronaut","path":"objects/obj_astronaut/obj_astronaut.yy",},"order":2,},
