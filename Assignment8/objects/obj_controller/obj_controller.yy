@@ -3,11 +3,7 @@
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
-<<<<<<< HEAD
-  "persistent": true,
-=======
   "persistent": false,
->>>>>>> 559c2e6edcf2778a56c74007923fb975b75a8227
   "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
@@ -23,12 +19,6 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-<<<<<<< HEAD
-    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-=======
->>>>>>> 559c2e6edcf2778a56c74007923fb975b75a8227
   ],
   "properties": [],
   "overriddenProperties": [],

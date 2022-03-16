@@ -1,18 +1,18 @@
 {
   "resources": [
-    {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"order":0,},
     {"id":{"name":"scr_updateObject","path":"scripts/scr_updateObject/scr_updateObject.yy",},"order":0,},
     {"id":{"name":"moon","path":"sprites/moon/moon.yy",},"order":0,},
     {"id":{"name":"snd_background","path":"sounds/snd_background/snd_background.yy",},"order":1,},
     {"id":{"name":"obj_astronaut","path":"objects/obj_astronaut/obj_astronaut.yy",},"order":2,},
     {"id":{"name":"obj_sun","path":"objects/obj_sun/obj_sun.yy",},"order":1,},
+    {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"order":3,},
     {"id":{"name":"earth","path":"sprites/earth/earth.yy",},"order":4,},
     {"id":{"name":"sun0","path":"sprites/sun0/sun0.yy",},"order":6,},
     {"id":{"name":"astronaut0","path":"sprites/astronaut0/astronaut0.yy",},"order":13,},
     {"id":{"name":"background","path":"sprites/background/background.yy",},"order":3,},
     {"id":{"name":"snd_explosion","path":"sounds/snd_explosion/snd_explosion.yy",},"order":2,},
-    {"id":{"name":"snd_thruster","path":"sounds/snd_thruster/snd_thruster.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"snd_thruster","path":"sounds/snd_thruster/snd_thruster.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Linux","path":"options/linux/options_linux.yy",},

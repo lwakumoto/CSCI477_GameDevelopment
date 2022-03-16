@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 5,
+  "bbox_left": 0,
   "bbox_right": 99,
   "bbox_top": 3,
-  "bbox_bottom": 148,
+  "bbox_bottom": 167,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,9 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"fc741e16-2d16-4e31-a43f-aca848fb33fb","path":"sprites/astronaut0/astronaut0.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fc741e16-2d16-4e31-a43f-aca848fb33fb","path":"sprites/astronaut0/astronaut0.yy",},"LayerId":{"name":"9db627f4-33eb-4426-8eac-1839106388b3","path":"sprites/astronaut0/astronaut0.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"astronaut0","path":"sprites/astronaut0/astronaut0.yy",},"resourceVersion":"1.0","name":"fc741e16-2d16-4e31-a43f-aca848fb33fb","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ee3115cb-25a2-4e31-ad64-965f123d1fa4","path":"sprites/astronaut0/astronaut0.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ee3115cb-25a2-4e31-ad64-965f123d1fa4","path":"sprites/astronaut0/astronaut0.yy",},"LayerId":{"name":"cef54dc1-67ce-451e-b756-6c1b37c048a1","path":"sprites/astronaut0/astronaut0.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"astronaut0","path":"sprites/astronaut0/astronaut0.yy",},"resourceVersion":"1.0","name":"ee3115cb-25a2-4e31-ad64-965f123d1fa4","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"7c789da7-3345-4d90-a4d9-4f100764cbb2","path":"sprites/astronaut0/astronaut0.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"7c789da7-3345-4d90-a4d9-4f100764cbb2","path":"sprites/astronaut0/astronaut0.yy",},"LayerId":{"name":"cef54dc1-67ce-451e-b756-6c1b37c048a1","path":"sprites/astronaut0/astronaut0.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"astronaut0","path":"sprites/astronaut0/astronaut0.yy",},"resourceVersion":"1.0","name":"7c789da7-3345-4d90-a4d9-4f100764cbb2","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"astronaut0","path":"sprites/astronaut0/astronaut0.yy",},
@@ -36,12 +39,13 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 1.0,
+    "length": 2.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"1c0fa708-39fb-4a2f-9c72-4eb2d48e6769","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fc741e16-2d16-4e31-a43f-aca848fb33fb","path":"sprites/astronaut0/astronaut0.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"9fede5cb-2b80-438a-b1a9-54eae37293ca","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ee3115cb-25a2-4e31-ad64-965f123d1fa4","path":"sprites/astronaut0/astronaut0.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"8086bfb8-c35e-4003-8089-fe398a16c32b","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7c789da7-3345-4d90-a4d9-4f100764cbb2","path":"sprites/astronaut0/astronaut0.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -65,7 +69,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9db627f4-33eb-4426-8eac-1839106388b3","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"cef54dc1-67ce-451e-b756-6c1b37c048a1","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
